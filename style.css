@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Lexend+Deca:wght@100..900&display=swap");
+
+/* Global variables */
+:root {
+  --color-primary-900: hsl(233, 47%, 7%);
+  --color-primary-800: hsl(244, 38%, 16%);
+  --color-primary-400: hsl(277, 64%, 61%);
+
+  --color-neutral-100: hsl(0, 0%, 100%);
+  --color-neutral-200: hsla(0, 0%, 100%, 0.75);
+  --color-neutral-300: hsla(0, 0%, 100%, 0.6);
+
+  --font-face-primary: "Inter", sans-serif;
+  --font-face-secondary: "Lexend Deca", sans-serif;
+
+  --font-weight-regular: 400;
+  --font-weight-bold: 700;
+
+  --font-size-small: 0.75rem;
+  --font-size-medium: 0.9375rem;
+  --font-szie-large: 1.5rem;
+  --font-size-x-large: 2.25rem;
+
+  --line-height-small: 1.5rem;
+  --line-height-medium: 1.5rem;
+  --line-height-x-large: 2.75rem;
+
+  --border-radius-default: 0.5rem;
+}
+
+/* Resets */
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font: inherit;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+/* Styles */
+
+body {
+  font-family: var(--font-face-primary);
+  font-size: var(--font-size-medium);
+  line-height: var(--line-height-medium);
+  color: var(--color-neutral-100);
+  background-color: var(--color-primary-900);
+  display: grid;
+  place-content: center;
+}
