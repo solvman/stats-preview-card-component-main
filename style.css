@@ -144,6 +144,8 @@ section.stats > section:last-child {
   }
 
   .analytics__img {
+    background-image: url("./images/image-header-desktop.jpg");
+    background-position: top right;
     order: 1;
   }
 
